@@ -1,0 +1,83 @@
+<!-- Part 1 of 4: Setup, Styles, and Header -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLG Mini Tank™ - 420 Robotics™</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #121212; color: #ffffff; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #1f1f1f; padding: 20px; text-align: center; border-bottom: 2px solid #ff4500; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        .product-card { background: #1e1e1e; border-radius: 8px; padding: 20px; margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 20px; }
+        .product-img { flex: 1; min-width: 300px; max-width: 400px; }
+        .product-img img { width: 100%; border-radius: 8px; margin-bottom: 10px; }
+        .product-info { flex: 2; min-width: 300px; }
+        .price { font-size: 24px; color: #ff4500; font-weight: bold; margin: 15px 0; }
+        .btn-paypal { display: inline-block; background: #0070ba; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 15px; }
+        .btn-paypal:hover { background: #005ea6; }
+        .section-box { background: #1a1a1a; padding: 20px; border-radius: 8px; margin-top: 20px; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; margin-top: 15px; }
+        .gallery-grid img { width: 100%; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>420 Robotics™ - Open Source Hardware & AI Ecosystem</h1>
+    </header>
+    <!-- Part 2 of 4: Main Product Showcase (TLG Mini Tank™) -->
+    <div class="container">
+        <div class="product-card">
+            <div class="product-img">
+                <img src="1000026308.jpg" alt="TLG Mini Tank Grey Edition">
+                <img src="1000026309.jpg" alt="TLG Mini Tank White Edition">
+            </div>
+            <div class="product-info">
+                <h2>TLG Mini Tank™</h2>
+                <p>Next-generation remote-controlled robotic combat vehicle equipped with an HD camera, omnidirectional Mecanum wheels, infrared battle tracking, and gel bead shooting capabilities.</p>
+                <div class="price">$180.00 USD <span style="font-size: 14px; color: #aaa;">(Plus $8.00 shipping, $3.00 handling)</span></div>
+                <p><strong>Dimensions:</strong> 34.5cm x 23cm x 31cm</p>
+                <a href="https://www.paypal.com/ncp/payment/64GAPD6C9WBVL" class="btn-paypal" target="_blank">Buy Now with PayPal</a>
+            </div>
+        </div>
+        <!-- Part 3 of 4: Technical Specifications & Feature Gallery -->
+        <div class="section-box">
+            <h3>Technical Specifications & Features</h3>
+            <div class="gallery-grid">
+                <div>
+                    <img src="1000026305.jpg" alt="Performance specs">
+                    <p style="font-size: 14px; color: #ccc;">30m Shooting Range & All-Metal Body Architecture.</p>
+                </div>
+                <div>
+                    <img src="1000026306.jpg" alt="Dimensions specification">
+                    <p style="font-size: 14px; color: #ccc;">Precision engineered dimensions: 34.5cm x 20cm x 36cm.</p>
+                </div>
+                <div>
+                    <img src="1000026307.jpg" alt="Programming system">
+                    <p style="font-size: 14px; color: #ccc;">User-friendly drag-and-drop programming interface.</p>
+                </div>
+                <div>
+                    <img src="1000026311.jpg" alt="Packaging Box Grey">
+                    <p style="font-size: 14px; color: #ccc;">Official 420 Robotics Security 1 Retail Packaging.</p>
+                </div>
+            </div>
+        </div>
+      <!-- Part 4 of 4: Open Source AI Integration & Footer -->
+        <div class="section-box">
+            <h3>Why Open Source & Universal AI Integration?</h3>
+            <p>Unlike closed-ecosystem commercial robots, the 420 Robotics™ architecture is built from the ground up to be fully open source. You are never locked into proprietary applications or restricted vendor software.</p>
+            <ul>
+                <li><strong>Universal App Integration:</strong> Download our companion open-source control application compatible with Android and iOS.</li>
+                <li><strong>Bring Your Own LLM:</strong> Seamlessly hook up any Large Language Model or vision model directly from <strong>Hugging Face</strong>, <strong>GitHub repositories</strong>, or local <strong>Ollama/LM Studio instances</strong> via standard API endpoints.</li>
+                <li><strong>Custom Autonomous Logic:</strong> Empower your TLG Mini Tank™ with custom local intelligence, voice control, or autonomous navigation scripts without restrictions.</li>
+            </ul>
+        </div>
+
+        <div class="section-box" style="text-align: center; font-size: 14px; color: #888;">
+            <p>&copy; 2026 420 Robotics™ | Designed for Instant Engagement, Open Source Innovation, and Real Security.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        
